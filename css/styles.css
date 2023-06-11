@@ -560,9 +560,9 @@ img {
   justify-content: center;
   align-items: center;
   padding: 8px 24px;
-  gap: 16px;
   min-width: 165px;
   height: 40px;
+  font-weight: 500;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -577,6 +577,7 @@ img {
 .footer-subscribe-btn-icon {
   display: flex;
   justify-content: center;
+  margin-left: 16px;
   fill: #ffffff;
 }
 
@@ -746,7 +747,7 @@ img {
 
 .modal-form-checkbox-label {
   font-size: 12px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--color-subtle-text);
 }
